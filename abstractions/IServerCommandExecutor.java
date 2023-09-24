@@ -15,7 +15,7 @@ public interface IServerCommandExecutor extends ICommandExecutor {
     ResultData minByCT(CommandData commandData);
     ResultData readCSVFile (CommandData commandData);
     ResultData removeById (CommandData commandData);
-    ResultData saveToCSV (CommandData commandData);
+//    ResultData saveToCSV (CommandData commandData);
     ResultData show (CommandData commandData);
     ResultData updateById (CommandData commandData);
 

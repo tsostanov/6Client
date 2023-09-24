@@ -29,7 +29,7 @@ public class CommandManager {
         CommandManager.register(new UpdateByIdCommand());
         CommandManager.register(new RemoveByIdCommand());
         CommandManager.register(new ClearCommand());
-        CommandManager.register(new SaveCommand());
+    //        CommandManager.register(new SaveCommand());
         CommandManager.register(new ExecuteScriptCommand());
         CommandManager.register(new ExitCommand());
         CommandManager.register(new InsertAtIdCommand());
